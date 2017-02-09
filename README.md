@@ -11,7 +11,7 @@
   - [Validation](validation)
   - [Future Steps](future-steps)
 
-The following describes a sentiment analysis of the overall sentiment of the translated articles on NetizenBuzz grouped by artist tags. The overall sentiment is derived from the sentiment of the comments weighted by their popularity, in order to accurately reflect the overall sentiment of the comments posted on NetizenBuzz.
+The following describes a sentiment analysis of the overall sentiment of the translated articles and comments on NetizenBuzz grouped by artist tags. The overall sentiment is derived from the sentiment of the comments weighted by their popularity, in order to accurately reflect the overall tone of comments translated on NetizenBuzz.
 
 Each article is ranked by its newsworthiness (based on the total interest by Netizens), its overall sentiment, and grouped by tags, for analysis by various combinations of these factors. This article is written for a well-educated layperson, and may not be comprehensible to the average Korean Pop, or K-Pop fan.
 
@@ -70,13 +70,15 @@ To determine if our Vader analysis matched a control set, we manually assigned s
 
 Unfortunately, we found no correlation between the manually assigned scores and the Vader scores, suggesting our Vader analysis is inaccurate or generally insufficient. If there was a correlation, we would expect manually-determined negative posts to produce negative Vader scores, with little overlap with positive posts. Instead, we see nearly the opposite: a large section of overlap between positive and negative posts, and on average higher Vader rankings for manually-assigned negative posts. Even without running a linear regression, we can tell we are looking primarily at noise.
 
-Since our Vader classifier does not seem to properly determine the general tone of Netizenbuzz-translated articles, we sought to determine whether the 
+**Sentiment over Time**
 
-I quickly ran two analyses: one plotting the overall sentiment as a function of time, subdivded into male and female idols, and another plotting AOA vs. Block B, to determine if there were significant deviations for either group relative to all posts. These groups were chosen since Netizenbuzz is thought to be an anti-fan of AOA, and is a self-proclaimed fan of Block B, and some have argued Netizenbuzz is generally biased in favor of male idols relative to female idols.
+Since our Vader classifier does not seem to properly determine the general tone of Netizenbuzz-translated articles, we sought to determine whether the overall sentiment is neutral over time. Since a neutral sentiment could be attributed to an unbiased translator, two groups (Block B and AOA) were selected that had major scandals since Netizenbuzz started. If the Vader analysis is accurate, we would predict increases in negativity during their scandals, with as subsequent regression to the mean. For a control group, we plotted the time series of all posts, as well as subdivded into the top male and female idols, since the overall sentiment should be more stable relative to individual idols or groups.
 
 | Male vs. Female Idols | AOA vs. Block B |
 |:---------------------:|:---------------:|
 | ![Male-vs-Female](/images/sentiment_time.png) | ![AOA-vs-BlockB](/images/aoa_blockb.png) |
+
+The overall Vader sentiment plotted over time is mostly neutral and fairly stable, while for individual groups the sentiment is much noisier. However, we see no corresponding decrease in the Vader sentiment during periods of idol scandals. For example, we see no major decrease in sentiment for Block B or AOA in May-August 2016, despite numerous negative articles published during AOA's "History Scandal" (May 2016) and during Seolhyun and Zico's dating scandal (August 2016). We can therefore concluded that our Vader model does not accurately reflect Netizen sentiment.
 
 ### Future Steps
 
@@ -89,4 +91,4 @@ AOA, for being the constant brunt of my jokes.
 
 ## License
 
-The code here is freely released into the Public Domain, with the exception of `vader_lexicon.txt`, which is under an MIT license. There are absolutely no restrictions on what you may do with these files.
+The code here is freely released into the Public Domain, with the exception of `kpop_lexicon.txt`, which is under an MIT license. There are absolutely no restrictions on what you may do with these files.
