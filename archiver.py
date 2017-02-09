@@ -18,7 +18,7 @@ DOMAIN = u"https://netizenbuzz.blogspot.com/"
 PATH = u"2017/02/teen-tops-l-joe-requests-contract.html"
 URL = DOMAIN + PATH
 
-HOME = os.path.dirname(__file__)
+HOME = os.path.dirname(os.path.realpath(__file__))
 POSTS = os.path.join(HOME, "posts")
 
 # REGEXP
