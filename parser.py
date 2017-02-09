@@ -47,7 +47,7 @@ MONTHS = {
 
 DATE = re.compile("(?P<weekday>\w+), (?P<month>\w+) (?P<day>\d+), (?P<year>\d+)")
 TITLE = re.compile("(?:Naver)|(?:Nate)|(?:Instiz)|(?:Daum)")
-VOTE = re.compile(".*\[(?P<up>(?:\+)?[0-9,]+), (?:\-(?P<down>[0-9,]+))?\](?P<text>.*)")
+VOTE = re.compile(".*\[(?P<up>(?:\+)?[0-9,]+)(?:\, ?-?(?P<down>[0-9,]+))?\](?P<text>.*)")
 
 # FUNCTIONS
 # ---------
