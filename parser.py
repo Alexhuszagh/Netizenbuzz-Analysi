@@ -1,8 +1,10 @@
+#!/usr/bin/env python
 '''
     parser
     ------
 
     Processes data from posts to create JSON stores of the data.
+    This ranks the popularity of the posts.
 
     Example:
         {
@@ -12,6 +14,7 @@
         }
 '''
 
+import json
 import os
 import re
 
@@ -43,9 +46,17 @@ MONTHS = {
 # ------
 
 DATE = re.compile("(?P<weekday>\w+), (?P<month>\w+) (?P<day>\d+), (?P<year>\d+)")
+TITLE = re.compile("(?:Naver)|(?:Nate)|(?:Instiz)|(?:Daum)")
+VOTE = re.compile(".*\[(?P<up>(?:\+)?[0-9,]+), (?:\-(?P<down>[0-9,]+))?\](?P<text>.*)")
 
 # FUNCTIONS
 # ---------
+
+
+def tostring(node):
+    '''Get string representation of node'''
+
+    return node.encode("utf-8")
 
 
 def isspace(node):
@@ -56,6 +67,12 @@ def isspace(node):
     return True
 
 
+def istitle(string):
+    '''Check if the node is a title'''
+
+    return TITLE.search(string)
+
+
 def get_parser(path):
     '''Get a beautiful soup parser from a file'''
 
@@ -63,15 +80,52 @@ def get_parser(path):
         return BeautifulSoup(f.read(), "lxml")
 
 
-def extract_text(parser):
+def extract_votes(text):
+    '''Extract votes from the text'''
+
+    match = VOTE.search(text)
+    if match:
+        down = match.group("down").replace(",", "") or "0"
+        return {
+            "text": match.group("text"),
+            "up": int(match.group("up").replace(",", "")),
+            "down": int(down)
+        }
+
+    return {"text": text}
+
+
+def extract_text(parser, data):
     '''Extract the source content and remove formatting'''
 
-    data = []
+    data["posts"] = {}
+    title = ""
+
+    # Instiz articles don't have special
+    is_instiz = "instiz" in data["tags"] or "Instiz" in data["title"]
+    is_pann = "pann" in data["tags"] or "Pann" in data["title"]
+    if is_instiz:
+        title = "Instiz"
+        data["posts"][title] = []
+    elif is_pann:
+        title = "Pann"
+        data["posts"][title] = []
+
+    # iterate over all comments
     for node in parser.find(attrs={"class": "post-body entry-content"}):
         if not (isspace(node) or node.name == "div"):
-            data.append(node.encode("utf-8"))
+            string = tostring(node).strip()
 
-    return ''.encode("utf-8").join(data)
+            if istitle(string):
+                # new article, set a new title
+                title = string
+            elif string not in {"-", ":", "'", "+"}:
+                # process a comment
+                posts = data["posts"].setdefault(title, [])
+                if not is_instiz:
+                    posts.append(extract_votes(string))
+                else:
+                    posts.append({"text": string})
 
 
 def extract_tags(parser):
@@ -94,6 +148,18 @@ def extract_date(parser):
         return "{year}/{month}/{day}".format(year=match.group("year"), month=MONTHS[match.group("month")], day=match.group("day"))
 
 
+def extract_title(parser):
+    '''Extract title for the post'''
+
+    return parser.find(attrs={'property': 'og:title'}).get("content")
+
+
+def extract_url(parser):
+    '''Extract URL for the post'''
+
+    return parser.find(attrs={'property': 'og:url'}).get("content")
+
+
 def parse_file(src, dst):
     '''Parse a file and convert it to JSON'''
 
@@ -103,9 +169,14 @@ def parse_file(src, dst):
 
     data = {}
     parser = get_parser(src)
-    data["text"] = extract_text(parser)
     data["tags"] = extract_tags(parser)
     data["date"] = extract_date(parser)
+    data["title"] = extract_title(parser)
+    data["url"] = extract_url(parser)
+    extract_text(parser, data)
+
+    with open(dst, "wb") as f:
+        json.dump(data, f)
 
 
 def main():
