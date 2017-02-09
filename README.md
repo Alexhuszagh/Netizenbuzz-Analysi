@@ -28,6 +28,25 @@ The overall workflow, and source files are included throughout the repository. T
 - Calculate the sentiment of each comment, and rank the overall article.
 - Analyze the data by different components (group, source).
 
+## Results
+
+**Word Counting**
+
+While analyzing Netizenbuzz posts for Korean slang, the following words the most frequently in the top 150 words. These words were then mapped to existing phrases in the Vader lexicon, to avoid creating introducing untested lexica into the reference set. Words were only
+
+| Slang    | Count  | Equivalent |
+|:--------:|:------:|:----------:|
+|  ㅋ      | 118564 |    lol     |
+|  ㅠ      |  19546 |    :'(     |
+| daebak   |   1814 |   great    |
+| ㅜㅜ     |   1299 |   :'(      |
+| ㅜ       |   453  |   :'(      |
+| oppa    |   402  |            |
+| ㅎ       |   392  |  giggle    |
+| nuna    |   268  |            |
+| Ilbe    |   265  |            |
+| sajaegi |   243  | cheating   |
+
 ## License
 
-The code here is freely released into the Public Domain.
+The code here is freely released into the Public Domain, with the exception of `vader_lexicon.txt`, which is under an MIT license. There are absolutely no restrictions on what you may do with these files.

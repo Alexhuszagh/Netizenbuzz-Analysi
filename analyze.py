@@ -17,8 +17,9 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 HOME = os.path.dirname(os.path.realpath(__file__))
 JSON = os.path.join(HOME, "json")
+LEXICON = os.path.join(HOME, "kpop_lexicon.txt")
 
-SENTIMENT = SentimentIntensityAnalyzer()
+SENTIMENT = SentimentIntensityAnalyzer(lexicon_file=LEXICON)
 
 
 # FUNCTIONS
@@ -37,9 +38,12 @@ def process(path):
     with open(path) as f:
         data = json.load(f)
 
-#    data["scores"] = score(data["text"])
-#    with open(path, 'wb') as f:
-#        json.dump(data, f)
+    for posts in data["posts"].values():
+        for post in posts:
+            post["score"] = score(post["text"])
+
+    with open(path, 'wb') as f:
+        json.dump(data, f)
 
 
 def main():
