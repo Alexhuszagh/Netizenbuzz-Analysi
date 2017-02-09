@@ -2,7 +2,9 @@
 
 **Table of Contents**
 
+- [Sentiment Analysis](#sentiment-analysis)
 - [NLTK and Vader Analysis](#nltk-and-vader-analysis)
+- [Methods](#methods)
 
 The following describes a sentiment analysis of the overall sentiment of the translated articles on NetizenBuzz grouped by artist tags. The overall sentiment is derived from the sentiment of the comments weighted by their popularity, in order to accurately reflect the overall sentiment of the comments posted on NetizenBuzz.
 
@@ -25,3 +27,7 @@ The overall workflow, and source files are included throughout the repository. T
 - Count words by the most frequent, and add Korean and K-Pop slang (such as "ㅋ" and "iljin") to the sentiment dictionary.
 - Calculate the sentiment of each comment, and rank the overall article.
 - Analyze the data by different components (group, source).
+
+## License
+
+The code here is freely released into the Public Domain.

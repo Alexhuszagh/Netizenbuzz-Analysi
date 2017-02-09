@@ -59,7 +59,7 @@ def main():
 
     # save
     with open(os.path.join(HOME, "word_count.json"), "wb") as f:
-        json.dump(counts, f)
+        json.dump(counts.most_common(), f)
 
 
 if __name__ == '__main__':
