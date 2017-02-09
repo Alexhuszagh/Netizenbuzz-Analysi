@@ -1,0 +1,1557 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Crosslinker",
+				"CrosslinkerPtr"
+			],
+			[
+				"SearchMatc",
+				"SearchMatchList"
+			],
+			[
+				"SearchMa",
+				"SearchMatchList"
+			],
+			[
+				"modific",
+				"modification"
+			],
+			[
+				"crosslin",
+				"crosslinker"
+			],
+			[
+				"Modifci",
+				"ModificationPtr"
+			],
+			[
+				"empl",
+				"emplace\tfunc"
+			],
+			[
+				"Isobaric",
+				"IsobaricFragments"
+			],
+			[
+				"modifciatio",
+				"modifications"
+			],
+			[
+				"Modific",
+				"ModificationList"
+			],
+			[
+				"python_",
+				"python_libraries"
+			],
+			[
+				"python",
+				"python_root"
+			],
+			[
+				"py",
+				"python"
+			],
+			[
+				"pytho",
+				"python_root"
+			],
+			[
+				"Win",
+				"WinePath"
+			],
+			[
+				"emplace_",
+				"emplace_hint\tfunc"
+			],
+			[
+				"precuros",
+				"precursorNum"
+			],
+			[
+				"precursor",
+				"precursorNum"
+			],
+			[
+				"modif",
+				"modifications"
+			],
+			[
+				"IsotopePro",
+				"IsotopeProfile"
+			],
+			[
+				"Joinable",
+				"JoinableThread"
+			],
+			[
+				"quantia",
+				"quantitation"
+			],
+			[
+				"XLToo",
+				"XLToolsMode"
+			],
+			[
+				"PEPTIDE",
+				"PEPTIDE_LEVEL"
+			],
+			[
+				"CROSSLI",
+				"CROSSLINK_LEVEL"
+			],
+			[
+				"PeptideS",
+				"PeptideSearchMatchFile"
+			],
+			[
+				"Peptide",
+				"PeptideSearchMatchFile"
+			],
+			[
+				"remove_",
+				"remove_if\tfunc"
+			],
+			[
+				"check",
+				"checkStart"
+			],
+			[
+				"depric",
+				"derpicated"
+			],
+			[
+				"Database",
+				"DatabaseMode"
+			],
+			[
+				"Datbase",
+				"Database"
+			],
+			[
+				"Parameter",
+				"ParameterTable"
+			],
+			[
+				"CURRENT",
+				"CURRENT_ENZYME"
+			],
+			[
+				"TARG",
+				"TARGET_FILE"
+			],
+			[
+				"pppepx",
+				"pppepxml"
+			],
+			[
+				"pepxm",
+				"pepxml"
+			],
+			[
+				"HitExp",
+				"HitExpansionMode"
+			],
+			[
+				"Protein",
+				"ProteinProspectorScore"
+			],
+			[
+				"XLTool",
+				"XLToolsScore"
+			],
+			[
+				"Scoring",
+				"ScoringThresholds"
+			],
+			[
+				"expand",
+				"expandRank"
+			],
+			[
+				"pdpep",
+				"pdpepxml"
+			],
+			[
+				"EXPECT_",
+				"EXPECT_EQ"
+			],
+			[
+				"assert",
+				"assertEquals"
+			],
+			[
+				"SQ",
+				"SQLITECPP_LIBRARIES"
+			],
+			[
+				"Proteome",
+				"ProteomeDiscovererCsv"
+			],
+			[
+				"I-unor",
+				"I-unordered_set\tinc"
+			],
+			[
+				"substiutt",
+				"substitute"
+			],
+			[
+				"emp",
+				"emplace_back\tfunc"
+			],
+			[
+				"Spectrum",
+				"SpectrumMatch"
+			],
+			[
+				"ptrLis",
+				"ptrList"
+			],
+			[
+				"EXPORT_PY",
+				"EXPORT_PYCONTAINER3"
+			],
+			[
+				"SPectrum",
+				"SpectrumMatch"
+			],
+			[
+				"precur",
+				"precursorMz"
+			],
+			[
+				"precurso",
+				"precursorMz"
+			],
+			[
+				"concaten",
+				"concatenated"
+			],
+			[
+				"PROTE",
+				"PROTEOME_DISCOVERER"
+			],
+			[
+				"PROTEOM",
+				"PROTEOME_DISCOVERER_INTERACTIONS"
+			],
+			[
+				"POsition",
+				"PositionIterator"
+			],
+			[
+				"EXPECT",
+				"EXPECT_EQ"
+			],
+			[
+				"USE_SYS",
+				"USE_SYSTEM_JEMALLOC"
+			],
+			[
+				"Auto",
+				"AutoCOM_INCLUDE_DIRS"
+			],
+			[
+				"AutoCOM",
+				"AutoCOM_LIBRARIES"
+			],
+			[
+				"QMode",
+				"QModelIndexList"
+			],
+			[
+				"Cross",
+				"Crosslinker"
+			],
+			[
+				"source",
+				"sourceFile"
+			],
+			[
+				"I-un",
+				"I-unordered_set\tinc"
+			],
+			[
+				"I-uno",
+				"I-unordered_map\tinc"
+			],
+			[
+				"include",
+				"include_directories"
+			],
+			[
+				"CMAKE_C",
+				"CMAKE_CURRENT_SOURCE_DIR"
+			],
+			[
+				"false_ty",
+				"false_type"
+			],
+			[
+				"THERMO",
+				"THERMO_64"
+			],
+			[
+				"THERM",
+				"THERMO_32"
+			],
+			[
+				"addr",
+				"addrinfo"
+			],
+			[
+				"BOOST_",
+				"BOOST_AUTO_TEST_CASE"
+			],
+			[
+				"BOOST_CH",
+				"BOOST_CHECK"
+			],
+			[
+				"producer",
+				"producerThread"
+			],
+			[
+				"push",
+				"push_back\tfunc"
+			],
+			[
+				"Uniprot",
+				"UniprotProteinDownloader"
+			],
+			[
+				"USE_S",
+				"USE_SYSTEM_BZIP2"
+			],
+			[
+				"current",
+				"currentDepth"
+			],
+			[
+				"I-str",
+				"I-string\tinc"
+			],
+			[
+				"underlying",
+				"underlying_type"
+			],
+			[
+				"I-type",
+				"I-type_traits\tinc"
+			],
+			[
+				"bottom",
+				"bottomRight"
+			],
+			[
+				"QItem",
+				"QItemSelectionRange"
+			],
+			[
+				"ptrList",
+				"ptrListToPython"
+			],
+			[
+				"Crosslink",
+				"CrosslinkerPtr"
+			],
+			[
+				"crossl",
+				"crosslinkers"
+			],
+			[
+				"Crosslin",
+				"Crosslinkers"
+			],
+			[
+				"BOOST_CHE",
+				"BOOST_CHECK_EQUAL"
+			],
+			[
+				"CrosslinkerRef",
+				"CrosslinkerRefList"
+			],
+			[
+				"emplace",
+				"emplace_back\tfunc"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 720.0,
+		"last_filter": "Dele",
+		"selected_items":
+		[
+			[
+				"Dele",
+				"File: Delete"
+			],
+			[
+				"Del",
+				"File: Delete"
+			],
+			[
+				"Move",
+				"File: Move"
+			],
+			[
+				"Dupl",
+				"File: Duplicate"
+			],
+			[
+				"Rename",
+				"File: Rename"
+			],
+			[
+				"Diff",
+				"Git: Diff"
+			],
+			[
+				"Renam",
+				"File: Rename"
+			],
+			[
+				"New file",
+				"File: New File Relative to Current View"
+			],
+			[
+				"DUp",
+				"File: Duplicate"
+			],
+			[
+				"COpy",
+				"File: Copy Path"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"",
+				":$ - EOF"
+			],
+			[
+				"Copy",
+				"File: Copy Path"
+			],
+			[
+				"Copy pa",
+				"File: Copy Path"
+			],
+			[
+				"Dup",
+				"File: Duplicate"
+			],
+			[
+				"Mover",
+				"Package Control: Remove Repository"
+			],
+			[
+				"Duplc",
+				"File: Duplicate"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Instal",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"Copy path",
+				"File: Copy Path"
+			],
+			[
+				"Rena",
+				"File: Rename"
+			],
+			[
+				"Moive",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"Moce",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"diff",
+				"Git: Diff"
+			],
+			[
+				"Markdow",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"Markdown ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"Delet",
+				"File: Delete"
+			],
+			[
+				"DUpl",
+				"File: Duplicate"
+			],
+			[
+				"New fi",
+				"File: New File Relative to Current View"
+			],
+			[
+				"New fo",
+				"File: New Folder Relative to Current View"
+			],
+			[
+				"Toggle he",
+				"Hex Viewer: Toggle Hex View"
+			],
+			[
+				"Toggle hex",
+				"Hex Viewer: Toggle Hex View"
+			],
+			[
+				"Hex v",
+				"Hex Viewer: Toggle Hex View"
+			],
+			[
+				"Remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Install ",
+				"Package Control: Install Local Dependency"
+			]
+		],
+		"width": 877.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/ahuszagh/.local/lib/python2.7/site-packages/xldlib/test/xlpy/search/grouped.py",
+		"/home/ahuszagh/.local/lib/python2.7/site-packages/xldlib/xlpy/search/grouped.py",
+		"/home/ahuszagh/git/XLTools/src/chemical/crosslinker.cpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/chemical/crosslinker.hpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/chemical/chemical.hpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/sequencing/permutation/forward_p.hpp",
+		"/home/ahuszagh/git/XLTools/src/sequencing/CMakeLists.txt",
+		"/home/ahuszagh/git/XLTools/include/xltools/documents/psm/document.hpp",
+		"/home/ahuszagh/git/XLTools/src/documents/psm/document.cpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/parsers/psm/psm.hpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/parsers/psm/list.hpp",
+		"/home/ahuszagh/git/XLTools/test/parsers/psm/list.cpp",
+		"/home/ahuszagh/git/XLTools/XLPy/src/wrap/parsers.cpp",
+		"/home/ahuszagh/git/XLTools/XLPy/src/wrap/sequencing.cpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/sequencing.hpp",
+		"/home/ahuszagh/git/XLTools/test/documents/psm/document.cpp",
+		"/home/ahuszagh/git/XLTools/src/parsers/psm/ma_mime.cpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/parsers/spectrum/list.hpp",
+		"/home/ahuszagh/git/XLTools/src/parsers/spectrum/list.cpp",
+		"/home/ahuszagh/git/XLTools/test/parsers/spectrum/list.cpp",
+		"/home/ahuszagh/git/XLTools/test/parsers/CMakeLists.txt",
+		"/home/ahuszagh/git/XLTools/test/sequencing/spectrumlist.cpp",
+		"/home/ahuszagh/git/XLTools/test/sequencing/CMakeLists.txt",
+		"/home/ahuszagh/git/XLTools/src/sequencing/spectrumlist.cpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/sequencing/spectrumlist.hpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/parsers/spectrum/forward_p.hpp",
+		"/home/ahuszagh/git/XLTools/src/parsers/CMakeLists.txt",
+		"/home/ahuszagh/git/XLTools/include/xltools/parsers/spectrum.hpp",
+		"/home/ahuszagh/git/XLTools/src/sequencing/permutation/search.cpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/sequencing/searchmatchlist.hpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/sequencing/forward_p.hpp",
+		"/home/ahuszagh/git/XLTools/src/parsers/psm/list.cpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/parsers/psm/forward_p.hpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/documents/psm/document_p.hpp",
+		"/home/ahuszagh/git/XLTools/src/parsers/psm/psm.cpp",
+		"/home/ahuszagh/git/XLTools/src/documents/psm/linker_p.cpp",
+		"/home/ahuszagh/git/XLTools/src/documents/psm/document_p.cpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/documents/psm/linker_p.hpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/documents/psm/forward_p.hpp",
+		"/home/ahuszagh/git/XLTools/src/sequencing/searchmatchlist.cpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/parsers/psm.hpp",
+		"/home/ahuszagh/git/XLTools/src/sequencing/permutation/isobaric_p.cpp",
+		"/home/ahuszagh/Documents/Coding/XLTools CLI/xldlib/common/chemical/blocks/isobaric.py",
+		"/home/ahuszagh/git/XLTools/include/xltools/sequencing/permutation/isobaric_p.hpp",
+		"/home/ahuszagh/git/XLTools/test/sequencing/permutation/isobaric_p.cpp",
+		"/home/ahuszagh/git/XLTools/lattice/src/header.cpp",
+		"/home/ahuszagh/git/XLTools/lattice/include/lattice/header.hpp",
+		"/home/ahuszagh/git/XLTools/src/chemical/external/protein_prospector.json",
+		"/home/ahuszagh/git/XLTools/src/chemical/external/mascot.json",
+		"/home/ahuszagh/git/XLTools/src/chemical/external/mascot_interactions.json",
+		"/home/ahuszagh/git/XLTools/src/chemical/modification.cpp",
+		"/home/ahuszagh/git/XLTools/test/sequencing/permutation/search.cpp",
+		"/home/ahuszagh/git/XLTools/test/sequencing/searchmatchlist.cpp",
+		"/home/ahuszagh/git/XLTools/test/sequencing/crosslink.cpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/chemical/modification.hpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/common/hash/array.hpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/common/hash/set.hpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/common/hash/enum.hpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/common/objects/ordered_map.hpp",
+		"/home/ahuszagh/git/XLTools/itl/include/itl/unordered_map.hpp",
+		"/home/ahuszagh/git/XLTools/build/python/a.cpp",
+		"/home/ahuszagh/git/XLTools/XLPy/CMakeLists.txt",
+		"/home/ahuszagh/git/XLTools/XLPy/setup.py",
+		"/home/ahuszagh/git/XLTools/CMakeLists.txt",
+		"/home/ahuszagh/git/XLTools/include/xltools/common/internal/endian.hpp",
+		"/home/ahuszagh/git/XLTools/modules/Resources.cmake",
+		"/home/ahuszagh/git/toolchains/mingw/win32.cmake",
+		"/home/ahuszagh/git/toolchains/wine/gcc.cmake",
+		"/home/ahuszagh/git/XLTools/include/xltools/pyconfig.hpp",
+		"/home/ahuszagh/git/XLTools/modules/bootstrap_boost",
+		"/home/ahuszagh/git/XLTools/modules/boost.cmake",
+		"/home/ahuszagh/git/XLTools/modules/python_executable",
+		"/home/ahuszagh/git/XLTools/modules/python_include",
+		"/home/ahuszagh/git/XLTools/include/xltools/common/internal/sfinae.hpp",
+		"/home/ahuszagh/git/XLTools/dev/sfinae.cpp",
+		"/home/ahuszagh/git/toolchains/mingw/win64.cmake",
+		"/home/ahuszagh/git/XLTools/include/xltools/common/objects/vector.hpp",
+		"/home/ahuszagh/git/XLTools/itl/include/itl/vector.hpp",
+		"/home/ahuszagh/git/XLTools/XLPy/include/cmp.hpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/chemical/forward_p.hpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/common/objects/map.hpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/common/objects/multimap.hpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/common/objects/frozen_set.hpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/common/objects/deque.hpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/sequencing/permutation/search.hpp",
+		"/home/ahuszagh/git/XLTools/src/documents/spectrum/document.cpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/documents/spectrum/forward_p.hpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/documents/spectrum/document.hpp",
+		"/home/ahuszagh/git/XLTools/src/sequencing/crosslink.cpp",
+		"/home/ahuszagh/Documents/Coding/XLTools CLI/xldlib/xlpy/run.py",
+		"/home/ahuszagh/git/XLTools/include/xltools/common/io/stream.hpp",
+		"/home/ahuszagh/git/XLTools/src/common/filter/stream.cpp",
+		"/home/ahuszagh/git/XLTools/src/common/io/stream.cpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/common/filter/stream.hpp",
+		"/home/ahuszagh/git/XLTools/XLPy/src/wrap/documents.cpp",
+		"/home/ahuszagh/git/XLTools/modules/FindDlfcn.cmake",
+		"/home/ahuszagh/git/XLTools/XLPy/src/wrap/ms.cpp",
+		"/home/ahuszagh/git/XLTools/XLPy/src/wrap/chemical.cpp",
+		"/home/ahuszagh/git/XLTools/XLPy/src/wrap/common.cpp",
+		"/home/ahuszagh/git/XLTools/src/parsers/spectrum/fullms_mgf.cpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/parsers/spectrum/fullms_mgf.hpp",
+		"/home/ahuszagh/git/XLTools/src/parsers/psm/pp_pepxml.cpp",
+		"/home/ahuszagh/git/XLTools/test/parsers/spectrum/pava_mgf.cpp",
+		"/home/ahuszagh/git/XLTools/test/parsers/psm/pp_pepxml.cpp",
+		"/home/ahuszagh/git/XLTools/test/parsers/spectrum/pwiz_mgf.cpp",
+		"/home/ahuszagh/git/XLTools/test/parsers/psm/pd_csv.cpp",
+		"/home/ahuszagh/git/XLTools/src/parsers/psm/pd_csv.cpp",
+		"/home/ahuszagh/git/XLTools/src/parsers/psm/pd_pepxml.cpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/parsers/spectrum/pwiz_mgf.hpp",
+		"/home/ahuszagh/git/XLTools/src/parsers/spectrum/pwiz_mgf.cpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/parsers/spectrum/pava_mgf.hpp",
+		"/home/ahuszagh/git/XLTools/src/parsers/spectrum/pava_mgf.cpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/parsers/spectrum/mzxml.hpp",
+		"/home/ahuszagh/git/XLTools/src/parsers/spectrum/mzxml.cpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/parsers/spectrum/mzml.hpp",
+		"/home/ahuszagh/git/XLTools/src/parsers/spectrum/mzml.cpp",
+		"/home/ahuszagh/git/XLTools/test/parsers/spectrum/msconvert_mgf.cpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/parsers/spectrum/msconvert_mgf.hpp",
+		"/home/ahuszagh/git/XLTools/src/parsers/spectrum/msconvert_mgf.cpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/common/internal/define.hpp",
+		"/home/ahuszagh/git/XLTools/test/parsers/psm/ma_pepxml.cpp",
+		"/home/ahuszagh/git/XLTools/include/xltools/parsers/psm/ma_pepxml.hpp",
+		"/home/ahuszagh/git/XLTools/src/parsers/psm/ma_pepxml.cpp",
+		"/home/ahuszagh/git/XLTools/test/parsers/spectrum/fullms_mgf.cpp",
+		"/home/ahuszagh/git/XLTools/modules/unmangle",
+		"/home/ahuszagh/git/XLTools/modules/FindPthread.cmake",
+		"/home/ahuszagh/git/XLTools/modules/FindPackage.cmake",
+		"/home/ahuszagh/git/XLTools/modules/FindBZip2.cmake"
+	],
+	"find":
+	{
+		"height": 62.0
+	},
+	"find_in_files":
+	{
+		"height": 174.0,
+		"where_history":
+		[
+			"/home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/test, /home/ahuszagh/git/XLTools/XLGui, /home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/test",
+			"/home/ahuszagh/Documents/Coding/XLTools CLI/xldlib",
+			"/home/ahuszagh/git/XLTools/src/parsers/psm",
+			"/home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/test, /home/ahuszagh/git/XLTools/XLGui, /home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/test",
+			"/home/ahuszagh/Documents/Coding/XLTools CLI/xldlib",
+			"/home/ahuszagh/git/XLTools/lattice",
+			"/home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/test, /home/ahuszagh/git/XLTools/XLGui, /home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/test",
+			"/home/ahuszagh/git/XLTools/",
+			"/home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/test, /home/ahuszagh/git/XLTools/XLGui, /home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/test",
+			"/home/ahuszagh/Documents/Coding/XLTools CLI/xldlib",
+			"/home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/test, /home/ahuszagh/git/XLTools/XLGui, /home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/test",
+			"/home/ahuszagh/git/XLTools/re2",
+			"/home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/test, /home/ahuszagh/git/XLTools/XLGui, /home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/test",
+			"/home/ahuszagh/Documents/Coding/XLTools CLI/xldlib",
+			"/home/ahuszagh/git/xldiscoverer_cpp",
+			"/home/ahuszagh/Documents/Coding/XLTools CLI/xldlib",
+			"/home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/test, /home/ahuszagh/git/XLTools/XLGui, /home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/test",
+			"/home/ahuszagh/git/XLTools/lattice",
+			"/home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/test, /home/ahuszagh/git/XLTools/XLGui, /home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/test",
+			"/home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/XLGui, /home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/test",
+			"/home/ahuszagh/git/XLTools/lattice",
+			"/home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/XLGui, /home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/test",
+			"/home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/XLGui, /home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/test, *.cpp",
+			"/home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/XLGui, /home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/test",
+			"/home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/XLGui, /home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/test,*.cpp",
+			"/home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/XLGui, /home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/test",
+			"/home/ahuszagh/git/XLTools/lattice",
+			"/home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/XLGui, /home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/test",
+			"/home/ahuszagh/git/XLTools/autocom",
+			"/home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/XLGui, /home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/test",
+			"/home/ahuszagh/git/XLTools/autocom",
+			"/home/ahuszagh/git/XLTools/boost",
+			"/home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/XLGui, /home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/test",
+			"/home/ahuszagh/git/XLTools/boost",
+			"/home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/XLGui",
+			"/home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src",
+			"/home/ahuszagh/git/XLTools/include",
+			"/home/ahuszagh/git/XLTools/XLGui",
+			"/home/ahuszagh/git/XLTools/include",
+			"/home/ahuszagh/git/XLTools/src",
+			"/home/ahuszagh/git/XLTools/include",
+			"/home/ahuszagh/git/XLTools/XLPy",
+			"/home/ahuszagh/git/XLTools/include",
+			"/home/ahuszagh/git/XLTools/lattice",
+			"/home/ahuszagh/git/XLTools/test/common",
+			"/home/ahuszagh/git/XLTools/",
+			"/home/ahuszagh/git/XLTools/XLChemical",
+			"/home/ahuszagh/git/XLTools/XLCommon",
+			"/home/ahuszagh/git/XLTools/modules",
+			"/home/ahuszagh/git/XLTools/XLCommon",
+			"/home/ahuszagh/git/XLTools/lattice",
+			"/home/ahuszagh/git/XLTools/XLCommon",
+			"/home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/XLGui, /home/ahuszagh/git/XLTools/tests",
+			"/home/ahuszagh/git/XLTools/lattice",
+			"/home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/XLGui, /home/ahuszagh/git/XLTools/tests",
+			"/home/ahuszagh/git/XLTools/lattice",
+			"/home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/XLGui, /home/ahuszagh/git/XLTools/tests",
+			"/home/ahuszagh/git/disphelper",
+			"/home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/XLGui, /home/ahuszagh/git/XLTools/tests",
+			"/home/ahuszagh/git/disphelper",
+			"/home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/XLGui, /home/ahuszagh/git/XLTools/tests",
+			"/home/ahuszagh/git/disphelper",
+			"/home/ahuszagh/git/XLTools/lattice",
+			"/home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/XLGui, /home/ahuszagh/git/XLTools/tests",
+			"/home/ahuszagh/git/XLTools/disphelper",
+			"/home/ahuszagh/git/XLTools/ldisphelper",
+			"/home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/XLGui, /home/ahuszagh/git/XLTools/tests",
+			"/home/ahuszagh/git/XLTools/lattice",
+			"/home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/XLGui, /home/ahuszagh/git/XLTools/tests",
+			"/home/ahuszagh/git/XLTools/lattice",
+			"/home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/XLGui, /home/ahuszagh/git/XLTools/tests",
+			"/home/ahuszagh/git/XLTools/lattice",
+			"/home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/XLGui, /home/ahuszagh/git/XLTools/tests",
+			"/home/ahuszagh/git/XLTools/cpr",
+			"/home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/XLGui, /home/ahuszagh/git/XLTools/tests",
+			"/home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/XLGui, /home/ahuszagh/git/XLTools/test",
+			"/home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/XLGui",
+			"/home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/include",
+			"/home/ahuszagh/git/XLTools/qt5/qtbase",
+			"/home/ahuszagh/git/XLTools/XLPy, /home/ahuszagh/git/XLTools/include",
+			"/home/ahuszagh/git/XLTools/XLPy",
+			"/home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src, /home/ahuszagh/git/XLTools/tests",
+			"/home/ahuszagh/git/XLTools/include, /home/ahuszagh/git/XLTools/src",
+			"/home/ahuszagh/git/XLTools/include",
+			"/home/ahuszagh/git/XLTools/XLGui/",
+			"/home/ahuszagh/git/XLTools/XLGui/src",
+			"",
+			"/home/ahuszagh/git/XLTools/libxml2",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"\n        ",
+			"        ",
+			"fragmentModifications",
+			"Counts",
+			"ModificationSet",
+			"modification_residues",
+			"Terminus",
+			"residueCounts",
+			"lowerRequired",
+			"ReactiveSite",
+			"ends_counter",
+			"crosslinker_residues",
+			"int",
+			"const ",
+			"CrosslinkerCombinationFactory",
+			"SearchMatchList",
+			"PeptideSearchMatchTable",
+			"psm",
+			"sequencing",
+			"Spectrum",
+			"searchmatchlist",
+			"groupby",
+			"ClusteredSearchMatches",
+			"SearchMatchList",
+			"Z",
+			"sequenc",
+			"SpectrumMatchList",
+			"SearchMatchList",
+			"SearchMatch",
+			"SearchMatchList",
+			"sequencing",
+			"SearchMatchList",
+			"groupby",
+			"from_vector",
+			"SearchMatchList",
+			"modification_intersection",
+			"filter_modifications",
+			"isobaric_",
+			"modifications",
+			"IsobaricFragments",
+			"fragments",
+			"IsobaricFragments",
+			"filter_modifications",
+			"grouper",
+			"Grouper",
+			"std::unordered_map",
+			"mass",
+			"first",
+			"const ",
+			"modification->",
+			"ModificationPtr",
+			"CrosslinkerList",
+			"CaseInsensitiveCompare",
+			"hasher",
+			"aminoacid",
+			"IsobaricHash",
+			"secthirdond",
+			"first",
+			"hasher(",
+			"CrosslinkerPtr",
+			"ModificationList",
+			"isobaric",
+			"res",
+			"hash_combine",
+			"ModificationList",
+			"ModificationPtrSet",
+			"ModificationSet",
+			"ModificationList",
+			"unoredered_map",
+			"ModificationPtr",
+			"const ",
+			"const_",
+			"ModificationPtr",
+			"ModificationList * ",
+			"ModificationList *",
+			"at(",
+			"operator[]",
+			"const ",
+			"fopenmp",
+			"#pragma omp",
+			"CC",
+			"WineUnixPath",
+			"WinePath",
+			"CXX",
+			"CC",
+			"CXX",
+			"CROSS_COMPILING",
+			"file",
+			"python_version",
+			"__MINGW32__",
+			"WinePath",
+			"output",
+			"WinePath",
+			"PYTHON_INCLUDE_DIRS",
+			"PYTHON_EXECUTABLE",
+			"winepath",
+			"PYTHON_EXECUTABLE_PATH",
+			"PYTHON_EXECUTABLE",
+			"PYTHON_EXEC",
+			"PYTHON_EXECUTABLE",
+			"PYTHON",
+			"PYTHON_INCLUDE_DIRS",
+			"PYTHON_EXECUTABLE",
+			"python",
+			"PYTHON",
+			"python",
+			"PYTHON_INCLUDE_DIRS",
+			"${PYTHON_EXECUTABLE} modules/python_include",
+			"winepath",
+			"WINE32",
+			"WIN32",
+			"ARCH",
+			"CROSS_COMPILING",
+			"PYTHON",
+			"ARCH",
+			"PYTHON",
+			"BUILD_PYTHON",
+			"U",
+			"B",
+			"      \\",
+			"HasTotalOrder",
+			"friend bool",
+			"*this, other",
+			"const This &other",
+			"operator",
+			"<U>",
+			"right",
+			"left"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"CrosslinkerList",
+			"",
+			"\\n",
+			"\\\\n",
+			"template <typename Archive>",
+			"EXEPCT_FALSE(",
+			"IO_INTERNAL",
+			"addtogroup Io",
+			"&) = default",
+			"bytes.data(), bytes.size()",
+			"std::vector<unsigned char> bytes",
+			"Consumer<OutputPtr, ValuePtr, Size>",
+			"template <\n    typename OutputPtr,\n    typename ValuePtr,\n    int Size\n>",
+			"PyEnum",
+			"bp::enum_",
+			"PyEnum"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 56.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.hex_viewer_inspector":
+	{
+		"height": 158.0
+	},
+	"pinned_build_system": "",
+	"project": "netizenbuzz.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"groupe",
+				"test/xlpy/search/grouped.py"
+			],
+			[
+				"grouped.",
+				"xlpy/search/grouped.py"
+			],
+			[
+				"crosslinker.hpp",
+				"XLTools/include/xltools/chemical/crosslinker.hpp"
+			],
+			[
+				"isobaric_p",
+				"XLTools/src/sequencing/permutation/isobaric_p.cpp"
+			],
+			[
+				"isobaric",
+				"XLTools/src/sequencing/permutation/isobaric_p.cpp"
+			],
+			[
+				"isobaric_",
+				"XLTools/test/sequencing/permutation/isobaric_p.cpp"
+			],
+			[
+				"isobaric_p.",
+				"XLTools/include/xltools/sequencing/permutation/isobaric_p.hpp"
+			],
+			[
+				"isobari",
+				"XLTools CLI/xldlib/common/chemical/blocks/isobaric.py"
+			],
+			[
+				"modification.hpp",
+				"XLTools/include/xltools/chemical/modification.hpp"
+			],
+			[
+				"ordered_map",
+				"XLTools/include/xltools/common/objects/ordered_map.hpp"
+			],
+			[
+				"crosslinker.hp",
+				"XLTools/include/xltools/chemical/crosslinker.hpp"
+			],
+			[
+				"stream.hpp",
+				"XLTools/include/xltools/common/filter/stream.hpp"
+			],
+			[
+				"stream.cpp",
+				"XLTools/src/common/filter/stream.cpp"
+			],
+			[
+				"document.hpp",
+				"XLTools/include/xltools/documents/psm/document.hpp"
+			],
+			[
+				"document.cpp",
+				"XLTools/src/documents/psm/document.cpp"
+			],
+			[
+				"pava_mgf.",
+				"XLTools/test/parsers/spectrum/pava_mgf.cpp"
+			],
+			[
+				"pp_pep",
+				"XLTools/test/parsers/psm/pp_pepxml.cpp"
+			],
+			[
+				"pwiz_m",
+				"XLTools/test/parsers/spectrum/pwiz_mgf.cpp"
+			],
+			[
+				"pd_csv.",
+				"XLTools/test/parsers/psm/pd_csv.cpp"
+			],
+			[
+				"pd_csv",
+				"XLTools/src/parsers/psm/pd_csv.cpp"
+			],
+			[
+				"pp_pepxml",
+				"XLTools/test/parsers/psm/pp_pepxml.cpp"
+			],
+			[
+				"pwiz_mgf.c",
+				"XLTools/src/parsers/spectrum/pwiz_mgf.cpp"
+			],
+			[
+				"mzxml.cp",
+				"XLTools/src/parsers/spectrum/mzxml.cpp"
+			],
+			[
+				"fullms_",
+				"XLTools/src/parsers/spectrum/fullms_mgf.cpp"
+			],
+			[
+				"mzml.cpp",
+				"XLTools/src/parsers/spectrum/mzml.cpp"
+			],
+			[
+				"msconver",
+				"XLTools/test/parsers/spectrum/msconvert_mgf.cpp"
+			],
+			[
+				"ma_pepxml",
+				"XLTools/test/parsers/psm/ma_pepxml.cpp"
+			],
+			[
+				"fullms",
+				"XLTools/src/parsers/spectrum/fullms_mgf.cpp"
+			],
+			[
+				"abstract.hpp",
+				"XLTools/include/xltools/parsers/psm/abstract.hpp"
+			],
+			[
+				"define.hpp",
+				"XLTools/include/xltools/common/internal/define.hpp"
+			],
+			[
+				"regex.cpp",
+				"XLTools/src/common/string/regex.cpp"
+			],
+			[
+				"wrapper.cpp",
+				"XLTools/src/common/string/wrapper.cpp"
+			],
+			[
+				"wrapper.hpp",
+				"XLTools/include/xltools/common/string/wrapper.hpp"
+			],
+			[
+				"ma_pep",
+				"XLTools/include/xltools/parsers/psm/ma_pepxml.hpp"
+			],
+			[
+				"conerters.cpp",
+				"XLTools/src/common/string/converters.cpp"
+			],
+			[
+				"linker_p.",
+				"XLTools/src/documents/psm/linker_p.cpp"
+			],
+			[
+				"linker_p",
+				"XLTools/src/documents/psm/linker_p.cpp"
+			],
+			[
+				"settings.hpp",
+				"XLTools/include/xltools/common/resources/settings.hpp"
+			],
+			[
+				"settings.cpp",
+				"XLTools/src/common/resources/settings.cpp"
+			],
+			[
+				"run.cpp",
+				"XLTools/src/workflows/permutation/run.cpp"
+			],
+			[
+				"psm.hpp",
+				"XLTools/include/xltools/parsers/psm/psm.hpp"
+			],
+			[
+				"cereal.hpp",
+				"XLTools/include/xltools/common/model/cereal.hpp"
+			],
+			[
+				"docuemnt",
+				"XLTools/src/documents/psm/document.cpp"
+			],
+			[
+				"chemical.hpp",
+				"XLTools/include/xltools/chemical.hpp"
+			],
+			[
+				"serialization.hpp",
+				"XLTools/test/testing/serialization.hpp"
+			],
+			[
+				"peaklis",
+				"XLTools/include/xltools/ms/peaklist.hpp"
+			],
+			[
+				"peaklist.cpp",
+				"XLTools/src/ms/peaklist.cpp"
+			],
+			[
+				"peaklist.hpp",
+				"XLTools/include/xltools/ms/peaklist.hpp"
+			],
+			[
+				"mzxml.cpp",
+				"XLTools/src/parsers/spectrum/mzxml.cpp"
+			],
+			[
+				"searchmatch",
+				"XLTools/include/xltools/sequencing/permutation/searchmatchlist.hpp"
+			],
+			[
+				"reporter_io",
+				"XLTools/test/parsers/psm/reporter_ion.cpp"
+			],
+			[
+				"reporter_ion.cp",
+				"XLTools/src/parsers/psm/reporter_ion.cpp"
+			],
+			[
+				"spectrum.c",
+				"XLTools/test/parsers/spectrum/spectrum.cpp"
+			],
+			[
+				"spectrum.cpp",
+				"XLTools/src/parsers/spectrum/spectrum.cpp"
+			],
+			[
+				"searchmatchli",
+				"XLTools/src/sequencing/permutation/searchmatchlist.cpp"
+			],
+			[
+				"spectrumlist.hpp",
+				"XLTools/include/xltools/sequencing/permutation/spectrumlist.hpp"
+			],
+			[
+				"psm.cpp",
+				"XLTools/test/parsers/psm/psm.cpp"
+			],
+			[
+				"spectrum.hpp",
+				"XLTools/include/xltools/parsers/spectrum/spectrum.hpp"
+			],
+			[
+				"mass.cpp",
+				"XLTools/src/ms/mass.cpp"
+			],
+			[
+				"peaklist.",
+				"XLTools/src/ms/peaklist.cpp"
+			],
+			[
+				"searchmat",
+				"XLTools/test/sequencing/permutation/searchmatchlist.cpp"
+			],
+			[
+				"setings.cpp",
+				"XLTools/src/common/resources/settings.cpp"
+			],
+			[
+				"peptidelist",
+				"XLTools/src/chemical/peptidelist.cpp"
+			],
+			[
+				"peptide.hpp",
+				"XLTools/include/xltools/chemical/peptide.hpp"
+			],
+			[
+				"reader.hpp",
+				"XLTools/include/xltools/common/xml/reader.hpp"
+			],
+			[
+				"writer.hpp",
+				"XLTools/include/xltools/common/xml/writer.hpp"
+			],
+			[
+				"xml.hpp",
+				"XLTools/include/xltools/common/model/xml.hpp"
+			],
+			[
+				"external.cpp",
+				"XLTools/src/chemical/external.cpp"
+			],
+			[
+				"peptidelist.cpp",
+				"XLTools/src/chemical/peptidelist.cpp"
+			],
+			[
+				"modification.cpp",
+				"XLTools/src/chemical/modification.cpp"
+			],
+			[
+				"isotope.cpp",
+				"XLTools/src/chemical/isotope.cpp"
+			],
+			[
+				"chemical.cpp",
+				"XLTools/src/chemical/chemical.cpp"
+			],
+			[
+				"crosslinker.cpp",
+				"XLTools/src/chemical/crosslinker.cpp"
+			],
+			[
+				"types.cpp",
+				"XLTools/src/common/io/types.cpp"
+			],
+			[
+				"setting",
+				"XLTools/src/common/resources/settings.cpp"
+			],
+			[
+				"json.hpp",
+				"XLTools/include/xltools/common/model/json.hpp"
+			],
+			[
+				"input_files.cpp",
+				"XLTools/src/common/resources/input_files.cpp"
+			],
+			[
+				"input_files.hpp",
+				"XLTools/include/xltools/common/resources/input_files.hpp"
+			],
+			[
+				"input_fil",
+				"XLTools/src/common/resources/input_files.cpp"
+			],
+			[
+				"frozen",
+				"XLTools/include/xltools/common/objects/frozen_set.hpp"
+			],
+			[
+				"peptidelist.hpp",
+				"XLTools/include/xltools/chemical/peptidelist.hpp"
+			],
+			[
+				"spectrum",
+				"XLTools/include/xltools/parsers/spectrum/spectrum.hpp"
+			],
+			[
+				"interface.hpp",
+				"XLTools/include/xltools/common/producer/interface.hpp"
+			],
+			[
+				"pava_mgf.cpp",
+				"XLTools/src/parsers/spectrum/pava_mgf.cpp"
+			],
+			[
+				"mzml.hpp",
+				"XLTools/include/xltools/parsers/spectrum/mzml.hpp"
+			],
+			[
+				"spectrump.hpp",
+				"XLTools/include/xltools/parsers/spectrum/forward_p.hpp"
+			],
+			[
+				"modific",
+				"XLTools/include/xltools/chemical/modification.hpp"
+			],
+			[
+				"rotease",
+				"XLTools/include/xltools/chemical/protease.hpp"
+			],
+			[
+				"uniprot.cpp",
+				"XLTools/src/parsers/protein/uniprot.cpp"
+			],
+			[
+				"database.cpp",
+				"XLTools/src/chemical/database.cpp"
+			],
+			[
+				"protein.cpp",
+				"XLTools/test/chemical/protein.cpp"
+			],
+			[
+				"protein.hpp",
+				"XLTools/include/xltools/chemical/protein.hpp"
+			],
+			[
+				"protein_data",
+				"xldiscoverer_cpp/src/chemical/protein_database.cpp"
+			],
+			[
+				"databse.hpp",
+				"XLTools/include/xltools/chemical/database.hpp"
+			],
+			[
+				"database.hpp",
+				"XLTools/include/xltools/chemical/database.hpp"
+			],
+			[
+				"peptide.cpp",
+				"XLTools/test/chemical/peptide.cpp"
+			],
+			[
+				"pd_csv.cpp",
+				"XLTools/src/parsers/psm/pd_csv.cpp"
+			],
+			[
+				"pp_csv.cpp",
+				"XLTools/src/parsers/psm/pp_csv.cpp"
+			],
+			[
+				"pd_pepxml",
+				"XLTools/src/parsers/psm/pd_pepxml.cpp"
+			],
+			[
+				"ma_pepxm",
+				"XLTools/src/parsers/psm/ma_pepxml.cpp"
+			],
+			[
+				"ma_mime.cpp",
+				"XLTools/test/parsers/psm/ma_mime.cpp"
+			],
+			[
+				"ma_mim",
+				"XLTools/src/parsers/psm/ma_mime.cpp"
+			],
+			[
+				"protease.cp",
+				"XLTools/src/chemical/protease.cpp"
+			],
+			[
+				"ordered_map.hpp",
+				"XLTools/include/xltools/common/objects/ordered_map.hpp"
+			],
+			[
+				"ma_mi",
+				"XLTools/src/parsers/psm/ma_mime.cpp"
+			],
+			[
+				"typechecker.cpp",
+				"xldiscoverer_cpp/src/common/io/typechecker.cpp"
+			],
+			[
+				"typechecke",
+				"xldiscoverer_cpp/src/common/io/typechecker.hpp"
+			],
+			[
+				"mascot_mime.cpp",
+				"xldiscoverer_cpp/src/parsers/psm/mascot_mime.cpp"
+			],
+			[
+				"mzxml.hp",
+				"XLTools/include/xltools/parsers/spectrum/mzxml.hpp"
+			],
+			[
+				"mzm",
+				"XLTools/src/parsers/spectrum/mzml.cpp"
+			],
+			[
+				"pepxml_p",
+				"XLTools/include/xltools/parsers/psm/pepxml_p.hpp"
+			],
+			[
+				"mascot_mim",
+				"XLTools/test/rmdir/old/parsers/psm/mascot_mime.cpp"
+			],
+			[
+				"csv.hpp",
+				"XLTools/include/xltools/common/csv.hpp"
+			],
+			[
+				"stream.hp",
+				"XLTools/include/xltools/common/filter/stream.hpp"
+			],
+			[
+				"pd_csv.cp",
+				"XLTools/src/parsers/psm/pd_csv.cpp"
+			],
+			[
+				"mam_mi",
+				"XLTools/src/parsers/psm/ma_mime.cpp"
+			],
+			[
+				"mascot_mime",
+				"XLTools/src/old/old/parsers/psm/mascot_mime.cpp"
+			],
+			[
+				"mascot_pep",
+				"XLTools/test/rmdir/old/parsers/psm/mascot_pepxml.cpp"
+			],
+			[
+				"settings.hp",
+				"XLTools/include/xltools/common/resources/settings.hpp"
+			],
+			[
+				"substitut",
+				"XLTools/src/parsers/psm/substitute.cpp"
+			],
+			[
+				"search_title",
+				"xldiscoverer_cpp/tests/cli/parsers/psm/search_title.cpp"
+			],
+			[
+				"pep.xml",
+				"XLTools/test/parsers/external/mascot_ms3.pep.xml"
+			],
+			[
+				"mzml.",
+				"XLTools/src/parsers/spectrum/mzml.cpp"
+			],
+			[
+				"mzml",
+				"XLTools/src/parsers/spectrum/mzml.cpp"
+			],
+			[
+				"pd_pep",
+				"XLTools/src/parsers/psm/pd_pepxml.cpp"
+			],
+			[
+				"model.",
+				"XLTools/include/xltools/common/model.hpp"
+			],
+			[
+				"taxon.cpp",
+				"XLTools/test/common/resources/taxon.cpp"
+			],
+			[
+				"taxon.hpp",
+				"XLTools/include/xltools/common/resources/taxon.hpp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 480.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
