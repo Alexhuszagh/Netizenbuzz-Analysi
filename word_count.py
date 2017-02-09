@@ -59,10 +59,10 @@ def main():
 
     # save
     common = counts.most_common()
-    with open(os.path.join(HOME, "word_count.json"), "wb") as f:
+    with open(os.path.join(HOME, "word_count.json"), "w") as f:
         json.dump(common, f)
 
-    with open(os.path.join(HOME, "word_count.csv"), "wb") as f:
+    with open(os.path.join(HOME, "word_count.csv"), "w") as f:
         f.write(u"Word\tCounts\n")
         for item in common:
             f.write(u"{}\t{}\n".format(item[0], item[1]).encode("utf-8"))

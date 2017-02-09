@@ -175,7 +175,7 @@ def parse_file(src, dst):
     data["url"] = extract_url(parser)
     extract_text(parser, data)
 
-    with open(dst, "wb") as f:
+    with open(dst, "w") as f:
         json.dump(data, f)
 
 

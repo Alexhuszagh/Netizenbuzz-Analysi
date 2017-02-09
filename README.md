@@ -16,7 +16,7 @@ To gage the overall tone of a body of text, we classify the utilization of vario
 
 ## NLTK and Vader Analysis
 
-The Natural Language Toolkit is a Python library to analyze natural speech, for the classification of human speech. [Vader analysis](http://www.nltk.org/api/nltk.sentiment.html#module-nltk.sentiment.vader) is a subset of natural language processing specialized for social media content, making it ideal for analyzing the nature of content on Netizenbuzz.
+The Natural Language Toolkit is a Python library to analyze natural speech, for the classification of human speech. [Vader analysis](http://www.nltk.org/api/nltk.sentiment.html#module-nltk.sentiment.vader) is a subset of natural language processing specialized for social media content, making it ideal for analyzing the nature of content on Netizenbuzz. We can also use naive Bayesian classifiers, which are then specialized for a given dataset, to enhance our dataset.
 
 ## Methods
 
@@ -46,6 +46,30 @@ While analyzing Netizenbuzz posts for Korean slang, the following words the most
 | nuna    |   268  |            |
 | Ilbe    |   265  |            |
 | sajaegi |   243  | cheating   |
+
+**Gender Classification**
+
+For classifying genders, foreign celebrities and CEOs were not included, with the exception of JYP, since he is still an active idol. Songs were associated with the group they correspond to, so for example, "4 walls" would correspond to "f(x)" and therefore correspond to female idols.
+
+**Validation**
+
+To analyze if the overall negativity of Netizenbuzz has changed with respect to time and rank it by gender, I selected a subset of the 10 most popular male and female idols/groups. Among the top 10, girl groups had more coverage, summing to nearly 60% of all articles in this subset.
+
+I therefore selected 20 random articles from male and female idols (40 total), as well as 20 random articles from both AOA and Block B to form a control set. analyzed the total sentiment of the comments and gave it a 0 score for neutral, +1 for positive, or -1 for negative, and compared it to the actual results.
+
+**Quick Corroboration**
+
+Since our Vader classifier does not seem to properly determine the general tone of Netizenbuzz-translated articles, I quickly ran two analyses: one plotting the overall sentiment as a function of time, subdivded into male and female idols, and another plotting AOA vs. Block B.
+
+First, the manually assigned scores from AOA were then plotted against the automatic compound scores from the Vader analysis.
+
+![images/scatter_aoa.png][AOA Manual vs. Automatic Scatter Plot]
+
+Unfortunately, as is immediately obvious, there is absolutely no correlation between the manually assigned scores and the automatically generated ones, suggesting our automated analysis has flaws.
+
+**Future Steps**
+
+Although Vader excels with emojis and sentiment analysis in instant-messaging, it seems to have difficult with K-Pop vernacular. For example, the word "disband", which carries an overwhelmingly negative sentiment in K-Pop, does not change the compound sentiment in Vader Analysis. One possible step would be to train the Vader classifier to become aware of K-Pop vernacular, another would be to create a new classifier from naive Bayes' classifiers. Both of these steps would take substantial amounts of time, something I do not have the luxury of doing.
 
 ## License
 
