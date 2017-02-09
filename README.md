@@ -11,7 +11,7 @@
   - [Validation](validation)
   - [Future Steps](future-steps)
 
-The following describes a sentiment analysis of the overall sentiment of the translated articles and comments on NetizenBuzz grouped by artist tags. The overall sentiment is derived from the sentiment of the comments weighted by their popularity, in order to accurately reflect the overall tone of comments translated on NetizenBuzz.
+Netizenbuzz has routinely been accused of bias, both by commenters on the site as well as elsewhere. To determine if Netizenbuzz is truly biased, we employed sentiment analysis to determine the overall positivity of articles translated by NetizenBuzz. The overall sentiment should generally reflect the positivity or negativity of a given post, and contrasting different groups along with known events (scandals, debuts, positive vents) should elucidate whether Netizenbuzz is biased.
 
 Each article is ranked by its newsworthiness (based on the total interest by Netizens), its overall sentiment, and grouped by tags, for analysis by various combinations of these factors. This article is written for a well-educated layperson, and may not be comprehensible to the average Korean Pop, or K-Pop fan.
 
@@ -37,7 +37,7 @@ The overall workflow, and source files are included throughout the repository. T
 
 ### Word Counting
 
-While analyzing Netizenbuzz posts for Korean slang, the following words the most frequently in the top 150 words. These words were then mapped to existing phrases in the Vader lexicon, to avoid creating introducing untested lexica into the reference set. Words were only
+While analyzing Netizenbuzz posts for Korean slang, the following words the most frequently in the top 150 words. These words were then mapped to existing phrases in the Vader lexicon, to avoid introducing untested words into our reference set. The following words were added, as is shown in [kpop_lexicon.txt](/kpop_lexicon.txt).
 
 | Slang    | Count  | Equivalent |
 |:--------:|:------:|:----------:|
@@ -54,21 +54,21 @@ While analyzing Netizenbuzz posts for Korean slang, the following words the most
 
 ### Gender Classification
 
-For classifying genders, foreign celebrities and CEOs were not included, with the exception of JYP, since he is still an active idol. Songs were associated with the group they correspond to, so for example, "4 walls" would correspond to "f(x)" and therefore correspond to female idols.
+For classifying genders, foreign celebrities and CEOs were not included, with the exception of JYP, since he is still an active idol. Songs were associated with the group they correspond to, so for example, "4 walls" would correspond to "f(x)" and therefore be classified under female idols.
 
 ### Validation
 
-To analyze if the overall negativity of Netizenbuzz has changed with respect to time and rank it by gender, I selected a subset of the 10 most popular male and female idols/groups. Among the top 10, girl groups had more coverage, summing to nearly 60% of all articles in this subset.
+To verify the validity of my methods, I selected a subset of the 10 most popular male and female idols/groups. Among the top 10, girl groups had more coverage, summing to nearly 60% of all articles in this subset.
 
-I therefore selected 20 random articles from male and female idols (40 total), as well as 20 random articles from both AOA and Block B to form a control set. analyzed the total sentiment of the comments and gave it a 0 score for neutral, +1 for positive, or -1 for negative, and compared it to the actual results.
+In this subset, I selected 20 random articles from male or female idols (40 total), as well as 20 random articles from AOA or Block B as a control set. I manually analyzed the overalls sentiment of the comments and gave it a 0 score for neutral, +1 for positive, or -1 for negative, to contrast our control set to the Vader analysis.
 
 **Scatter Plot**
 
-To determine if our Vader analysis matched a control set, we manually assigned scores from [AOA posts](/validation/aoa.csv) and plotted them against the automatic compound scores from the Vader analysis.
+To determine if our Vader analysis matched our control set, we plotted scores from [AOA posts](/validation/aoa.csv) against the compound scores from the Vader analysis.
 
 ![AOA Manual vs. Automatic Scatter Plot](/images/scatter_aoa.png)
 
-Unfortunately, we found no correlation between the manually assigned scores and the Vader scores, suggesting our Vader analysis is inaccurate or generally insufficient. If there was a correlation, we would expect manually-determined negative posts to produce negative Vader scores, with little overlap with positive posts. Instead, we see nearly the opposite: a large section of overlap between positive and negative posts, and on average higher Vader rankings for manually-assigned negative posts. Even without running a linear regression, we can tell we are looking primarily at noise.
+However, we found no correlation between the manually assigned scores and the Vader scores, suggesting our Vader analysis is inaccurate or generally insufficient. If there was a correlation, we would expect manually-determined negative posts to produce negative Vader scores, with little overlap with positive posts. Instead, we see nearly the opposite: a large section of overlap between positive and negative posts, and on average higher Vader rankings for manually-assigned negative posts. Even without running a linear regression, we can tell we are looking primarily at noise.
 
 **Sentiment over Time**
 
@@ -78,16 +78,17 @@ Since our Vader classifier does not seem to properly determine the general tone 
 |:---------------------:|:---------------:|
 | ![Male-vs-Female](/images/sentiment_time.png) | ![AOA-vs-BlockB](/images/aoa_blockb.png) |
 
-The overall Vader sentiment plotted over time is mostly neutral and fairly stable, while for individual groups the sentiment is much noisier. However, we see no corresponding decrease in the Vader sentiment during periods of idol scandals. For example, we see no major decrease in sentiment for Block B or AOA in May-August 2016, despite numerous negative articles published during AOA's "History Scandal" (May 2016) and during Seolhyun and Zico's dating scandal (August 2016). We can therefore concluded that our Vader model does not accurately reflect Netizen sentiment.
+The overall Vader sentiment plotted over time is mostly neutral and fairly stable, while for individual groups the sentiment is much noisier. However, we see no corresponding decrease in the Vader sentiment during idol scandals. For example, we see no major decrease in sentiment for Block B or AOA in May-August 2016, despite numerous negative articles published during AOA's "History Scandal" (May 2016) and during Seolhyun and Zico's dating scandal (August 2016). We can therefore concluded that our Vader model does not accurately reflect Netizen sentiment.
 
 ### Future Steps
 
-Although Vader excels with emojis and sentiment analysis in instant-messaging, it seems to have difficult with K-Pop vernacular. For example, the word "disband" carries a negative sentiment in K-Pop but does not change the compound sentiment in Vader Analysis. One possible step would be to train the Vader classifier to become aware of K-Pop vernacular, another would be to create a new classifier from naive Bayes' classifiers. Both of these steps would take substantial amounts of time, something I do not have the luxury of doing.
+Although Vader excels with emojis and instant-messaging, it seems to have particular difficulty with K-Pop vernacular. For example, the word "disband" carries a negative sentiment in K-Pop but does not change the compound sentiment in Vader Analysis. One possible step would be to train the Vader classifier to become aware of K-Pop vernacular, another would be to create a new classifier from naive Bayes' classifiers. Both of these steps would take substantial amounts of time, something I simply do not have.
 
 ## Credits
 
 T-Ara, for their determination.
 AOA, for being the constant brunt of my jokes.
+Hwayoung, for not being her sister.
 
 ## License
 
