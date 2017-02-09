@@ -63,9 +63,11 @@ Since our Vader classifier does not seem to properly determine the general tone 
 
 First, the manually assigned scores from AOA were then plotted against the automatic compound scores from the Vader analysis.
 
-![images/scatter_aoa.png][AOA Manual vs. Automatic Scatter Plot]
+![scatter][AOA Manual vs. Automatic Scatter Plot]
 
-Unfortunately, as is immediately obvious, there is absolutely no correlation between the manually assigned scores and the automatically generated ones, suggesting our automated analysis has flaws.
+[scatter]: images/scatter_aoa.png
+
+Unfortunately, as is immediately obvious, there is absolutely no correlation between the manually assigned scores and the automatically generated ones, suggesting our automated analysis has flaws. If there was a correlation, we would expect manually assigned negative scores to be more negative than positive scores, with little overlap. Instead, we see nearly the opposite, with a large amount of overlap between positive and negative posts, and on average higher Vader rankings for manually-assigned negative posts. Even without running a linear regression, we can tell we are looking primarily at noise.
 
 **Future Steps**
 
