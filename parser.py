@@ -85,11 +85,11 @@ def extract_votes(text):
 
     match = VOTE.search(text)
     if match:
-        down = match.group("down").replace(",", "") or "0"
+        down = match.group("down") or "0"
         return {
             "text": match.group("text"),
             "up": int(match.group("up").replace(",", "")),
-            "down": int(down)
+            "down": int(down.replace(",", ""))
         }
 
     return {"text": text}
