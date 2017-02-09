@@ -86,9 +86,9 @@ Although Vader excels with emojis and instant-messaging, it seems to have partic
 
 ## Credits
 
-T-Ara, for their determination.
-AOA, for being the constant brunt of my jokes.
-Hwayoung, for not being her sister.
+- T-Ara, for their determination.
+- AOA, for being the constant brunt of my jokes.
+- Hwayoung, for not being her sister.
 
 ## License
 
